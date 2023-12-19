@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #f3f2fa;
+}
+
 @font-face {
   font-family: "FiraGO";
   font-weight: 700;
