@@ -1,4 +1,4 @@
-import Tags from "./Tags";
+import Tag from "./Tag";
 
 const Card = ({ staticTags }) => {
   return (
@@ -14,7 +14,7 @@ const Card = ({ staticTags }) => {
           მოსმენა ყველს უფრო გემრიელს ხდის?
         </div>
         <div>
-          <Tags staticTags={staticTags} />
+          <Tag staticTags={staticTags} />
         </div>
         <p className="text-base leading-7 my-3">
           6 თვის შემდეგ ყველის ბრმა დეგუსტაციის დროც დადგა. მაქსიმალური

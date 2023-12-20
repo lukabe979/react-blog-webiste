@@ -1,5 +1,5 @@
 import CardList from "../components/CardList";
-import Tags from "../components/Tags";
+import Filter from "../components/Filter";
 
 const staticTags = [
   { name: "მარკეტი", color: "customYellow" },
@@ -21,7 +21,7 @@ const Home = () => {
         ></div>
       </div>
       <div className="flex justify-center mb-20">
-        <Tags staticTags={staticTags} />
+        <Filter staticTags={staticTags} />
       </div>
       <CardList staticTags={staticTags} />
     </div>
