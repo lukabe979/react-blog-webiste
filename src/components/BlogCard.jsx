@@ -1,8 +1,8 @@
 import Tag from "./Tag";
 
-const Card = ({ staticTags }) => {
+const BlogCard = ({ staticTags }) => {
   return (
-    <div className={`flex flex-col w-125 h-130 mb-12`}>
+    <div className={`flex flex-col w-145 h-130 mb-12`}>
       <div
         className="bg-cover bg-center bg-card-image w-full h-80 rounded-2xl"
         style={{ backgroundImage: "url('/card-img.jpg')" }}
@@ -10,7 +10,10 @@ const Card = ({ staticTags }) => {
       <div className="flex flex-col">
         <div className="text-base font-medium mt-5 mb-2">ლილე კვარაცხელია</div>
         <div className="flex items-center text-xs font-regular text-gray-400">
-          02.11.2023
+          <div className="text-xs font-regular text-gray-400 mr-1">
+            02.11.2023
+          </div>
+          <div>• lile.kvaratskhelia@redberry.ge</div>
         </div>
         <div className="text-xl font-bold leading-7 my-3">
           მოსმენა ყველს უფრო გემრიელს ხდის?
@@ -33,4 +36,4 @@ const Card = ({ staticTags }) => {
   );
 };
 
-export default Card;
+export default BlogCard;

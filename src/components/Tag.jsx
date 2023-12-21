@@ -1,6 +1,4 @@
 const Tag = ({ staticTags }) => {
-  console.log(`text-${staticTags[0].color}`);
-
   return (
     <div className="flex flex-wrap">
       {staticTags.slice(0, 2).map((tag, i) => (

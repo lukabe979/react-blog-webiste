@@ -8,8 +8,8 @@ const MainRoutes = () => {
     <Routes>
       <Route path="/" element={<Navigate replace to="/home" />} />
       <Route path="/home" element={<Home />} />
-      <Route path="/blog/:id" element={<Blog />} />
-      <Route path="/addblog/:id" element={<AddBlog />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/addblog" element={<AddBlog />} />
     </Routes>
   );
 };

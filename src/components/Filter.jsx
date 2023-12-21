@@ -1,6 +1,4 @@
 const Filter = ({ staticTags }) => {
-  console.log(`text-${staticTags[0].color}`);
-
   return (
     <div className="flex flex-wrap">
       {staticTags.map((tag, i) => (
